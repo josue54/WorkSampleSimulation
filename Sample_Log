@@ -1,0 +1,8 @@
+sue/Downloads/WorkSampleSimulation/WorkSampleSimulation.py
+Enter the IP address: 112.95.230.3
+The number of login attempts from 112.95.230.3 is 26.
+josue@Josues-MacBook-Air WorkSampleSimulation % /usr/local/bin/python3 /Users/josue/Downloads/Wor
+kSampleSimulation/WorkSampleSimulation.py
+Enter the IP address: 103.99.0.122
+The number of login attempts from 103.99.0.122 is 46.
+josue@Josues-MacBook-Air WorkSampleSimulation % 
