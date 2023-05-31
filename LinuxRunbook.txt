@@ -3,16 +3,24 @@ Description: This runbook provides instructions on how to check the health of a 
 Commands:
 
 Run the df -h: command to view disk space usage. This command will show you the amount of free space on each disk partition.
+
 Run the iostat: -kx 10 command to check disk I/O. This command will show you the amount of read and write activity on each disk.
+
 Run the top -b -n 10: command to view CPU usage. This command will show you the percentage of CPU time that is being used by each process.
+vmsat 1: could help in addition to top or htop to see the the memory and swap status
+
 Run the netstat -an: command to check network connection. This command will show you all of the open network connections.
+
 Run the lsof -n | grep -v PID: command to list all open files. This command will show you all of the files that are currently open, including the process ID (PID) of the process that has the file open.
+
 Run the ps aux command: to list all processes
 
 Files and Logs:
 
 /var/log/syslog contains system logs, including messages from applications and services
+
 /var/log/kern.log contains kernel logs, which can provide information about hardware and driver issues
+
 /var/log/dmesg contains messages from the kernel during boot
 
 Actions:
